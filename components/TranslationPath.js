@@ -21,7 +21,7 @@ export const TranslationPathNode = ({ index, langCode, langLabel, resultText, ed
 
 	const buttonsHtml = editMode
 		? html`
-			<button class="button-link" href="javascript:void(0)" onClick=${() => handleAdd(index)}>Add</a> 
+			<button class="button-link" disabled=${isDest} href="javascript:void(0)" onClick=${() => handleAdd(index)}>Add</a> 
 			<button class="button-link" disabled=${isSource || isDest} href="javascript:void(0)" onClick=${() => handleDelete(index)}>Remove</a>
 		`
 		: '';

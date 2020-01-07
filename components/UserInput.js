@@ -62,6 +62,7 @@ export const UserInput = ({ userInput, setUserInput, langData, results, editMode
 					class="u-full-width"
 					disabled=${!editMode}
 					onFocus=${e => { e.target.focus(); e.target.select()}}
+					maxlength="750"
 				></textarea>
 			</div>
 
