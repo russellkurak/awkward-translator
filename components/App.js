@@ -2,7 +2,7 @@ import { h } from 'https://unpkg.com/preact@latest?module'
 import { useState, useEffect, useRef } from 'https://unpkg.com/preact@latest/hooks/dist/hooks.module.js?module';
 import htm from 'https://unpkg.com/htm?module';
 import { UserInput } from './UserInput.js'
-import { API_KEY } from '../keys.js'
+const API_KEY = 'trnsl.1.1.20200106T182053Z.1e7ceff9ce554051.b35b05a99a7ff228ba6d0eca8a78875c4ede51f5';
 
 const html = htm.bind(h);
 
