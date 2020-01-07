@@ -1,0 +1,1 @@
+export const API_KEY = 'trnsl.1.1.20200106T182053Z.1e7ceff9ce554051.b35b05a99a7ff228ba6d0eca8a78875c4ede51f5';
